@@ -1,0 +1,18 @@
+[1.258s] Invoking command in '/home/namtruong/xetuhanh/build/agv_base_interface': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_base_interface/build --no-deps symlink_data
+[1.551s] running develop
+[1.739s] running egg_info
+[1.757s] writing agv_base_interface.egg-info/PKG-INFO
+[1.758s] writing dependency_links to agv_base_interface.egg-info/dependency_links.txt
+[1.758s] writing entry points to agv_base_interface.egg-info/entry_points.txt
+[1.758s] writing requirements to agv_base_interface.egg-info/requires.txt
+[1.758s] writing top-level names to agv_base_interface.egg-info/top_level.txt
+[1.795s] reading manifest file 'agv_base_interface.egg-info/SOURCES.txt'
+[1.795s] writing manifest file 'agv_base_interface.egg-info/SOURCES.txt'
+[1.814s] running build_ext
+[1.814s] Creating /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv-base-interface.egg-link (link to .)
+[1.816s] Installing encoder_sim_node script to /home/namtruong/xetuhanh/install/agv_base_interface/lib/agv_base_interface
+[1.816s] Installing wheel_odometry_node script to /home/namtruong/xetuhanh/install/agv_base_interface/lib/agv_base_interface
+[1.816s] 
+[1.816s] Installed /home/namtruong/xetuhanh/build/agv_base_interface
+[1.816s] running symlink_data
+[1.869s] Invoked command in '/home/namtruong/xetuhanh/build/agv_base_interface' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_base_interface/build --no-deps symlink_data

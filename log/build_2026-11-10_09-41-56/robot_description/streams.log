@@ -1,0 +1,68 @@
+[0.012s] Invoking command in '/home/namtruong/xetuhanh/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/namtruong/xetuhanh/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/namtruong/xetuhanh/install/robot_description
+[0.024s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.197s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.203s] -- Found robot_state_publisher: 3.3.4 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[0.264s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.271s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.343s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.344s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.440s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.678s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[0.756s] -- Configuring done (0.7s)
+[0.762s] -- Generating done (0.0s)
+[0.765s] -- Build files have been written to: /home/namtruong/xetuhanh/build/robot_description
+[0.774s] Invoked command in '/home/namtruong/xetuhanh/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/namtruong/xetuhanh/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/namtruong/xetuhanh/install/robot_description
+[0.775s] Invoking command in '/home/namtruong/xetuhanh/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/robot_description -- -j16 -l16
+[0.822s] Invoked command in '/home/namtruong/xetuhanh/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/robot_description -- -j16 -l16
+[0.833s] Invoking command in '/home/namtruong/xetuhanh/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/robot_description
+[0.841s] -- Install configuration: ""
+[0.841s] -- Execute custom install script
+[0.841s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/urdf/common_properties.urdf
+[0.842s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/urdf/turtlebot3_burger.urdf
+[0.842s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/launch/launch.py
+[0.842s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/bases/burger_base.stl
+[0.842s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/bases/waffle_base.stl
+[0.842s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/bases/waffle_pi_base.stl
+[0.842s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/sensors/astra.dae
+[0.843s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/sensors/astra.jpg
+[0.843s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/sensors/lds.stl
+[0.843s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/sensors/r200.dae
+[0.843s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/sensors/r200.jpg
+[0.843s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/wheels/left_tire.stl
+[0.843s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/wheels/right_tire.stl
+[0.843s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/rviz/model.rviz
+[0.843s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/urdf/common_properties.urdf
+[0.844s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/urdf/turtlebot3_burger.urdf
+[0.844s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/launch/launch.py
+[0.844s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/bases/burger_base.stl
+[0.844s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/bases/waffle_base.stl
+[0.844s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/bases/waffle_pi_base.stl
+[0.844s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/sensors/astra.dae
+[0.845s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/sensors/astra.jpg
+[0.845s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/sensors/lds.stl
+[0.845s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/sensors/r200.dae
+[0.845s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/sensors/r200.jpg
+[0.845s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/wheels/left_tire.stl
+[0.845s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/meshes/wheels/right_tire.stl
+[0.846s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/rviz/model.rviz
+[0.846s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/config/ekf.yaml
+[0.846s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/config/nav2_params.yaml
+[0.846s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/config/slam.yaml
+[0.846s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.846s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.846s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.847s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.847s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/environment/path.sh
+[0.847s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/environment/path.dsv
+[0.847s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/local_setup.bash
+[0.847s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/local_setup.sh
+[0.847s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/local_setup.zsh
+[0.847s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/local_setup.dsv
+[0.847s] -- Symlinking: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.dsv
+[0.857s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.857s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.857s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.858s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.xml
+[0.859s] Invoked command in '/home/namtruong/xetuhanh/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/robot_description

@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.000216] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000482] (agv_pid_controller) JobQueued: {'identifier': 'agv_pid_controller', 'dependencies': OrderedDict()}
+[0.000805] (agv_pid_controller) JobStarted: {'identifier': 'agv_pid_controller'}
+[0.018820] (agv_pid_controller) JobProgress: {'identifier': 'agv_pid_controller', 'progress': 'cmake'}
+[0.020155] (agv_pid_controller) JobProgress: {'identifier': 'agv_pid_controller', 'progress': 'build'}
+[0.020818] (agv_pid_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/namtruong/xetuhanh/build/agv_pid_controller', '--', '-j16', '-l16'], 'cwd': '/home/namtruong/xetuhanh/build/agv_pid_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'namtruong', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/namtruong', 'OLDPWD': '/home/namtruong/xetuhanh', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/namtruong/xetuhanh/install:/home/namtruong/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'namtruong', 'NAME': 'NamTruong', 'WSL_INTEROP': '/run/WSL/2849_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_3.0.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/WSL/:/mnt/c/Program Files (x86)/Microsoft SQL Server/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/180/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/170/DTS/Binn/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/nambe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nambe/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/namtruong/xetuhanh/install/robot_description:/home/namtruong/xetuhanh/install/agv_pid_controller:/home/namtruong/turtlebot3_ws/install/turtlebot3:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_simulations:/home/namtruong/turtlebot3_ws/install/turtlebot3_bringup:/home/namtruong/turtlebot3_ws/install/turtlebot3_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_navigation2:/home/namtruong/turtlebot3_ws/install/turtlebot3_fake_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs:/home/namtruong/turtlebot3_ws/install/turtlebot3_gazebo:/home/namtruong/turtlebot3_ws/install/turtlebot3_description:/home/namtruong/turtlebot3_ws/install/turtlebot3_cartographer:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_examples:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/namtruong/xetuhanh/build/agv_pid_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/namtruong/turtlebot3_ws/build/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/namtruong/turtlebot3_ws/build/turtlebot3_example:/home/namtruong/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/namtruong/xetuhanh/install/robot_description:/home/namtruong/xetuhanh/install/agv_pid_controller:/home/namtruong/turtlebot3_ws/install/turtlebot3:/home/namtruong/turtlebot3_ws/install/turtlebot3_simulations:/home/namtruong/turtlebot3_ws/install/turtlebot3_bringup:/home/namtruong/turtlebot3_ws/install/turtlebot3_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_navigation2:/home/namtruong/turtlebot3_ws/install/turtlebot3_fake_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs:/home/namtruong/turtlebot3_ws/install/turtlebot3_gazebo:/home/namtruong/turtlebot3_ws/install/turtlebot3_description:/home/namtruong/turtlebot3_ws/install/turtlebot3_cartographer:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_examples:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.100018] (-) TimerEvent: {}
+[0.131915] (agv_pid_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.200204] (-) TimerEvent: {}
+[0.300855] (-) TimerEvent: {}
+[0.348976] (agv_pid_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.370603] (agv_pid_controller) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.402548] (-) TimerEvent: {}
+[0.503149] (-) TimerEvent: {}
+[0.514433] (agv_pid_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.529172] (agv_pid_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.548859] (agv_pid_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.571743] (agv_pid_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.604164] (-) TimerEvent: {}
+[0.660782] (agv_pid_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.664848] (agv_pid_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.706227] (-) TimerEvent: {}
+[0.809109] (-) TimerEvent: {}
+[0.836887] (agv_pid_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.910176] (-) TimerEvent: {}
+[0.994436] (agv_pid_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.011084] (-) TimerEvent: {}
+[1.038455] (agv_pid_controller) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.070701] (agv_pid_controller) StdoutLine: {'line': b'-- Found control_toolbox: 4.11.1 (/opt/ros/jazzy/share/control_toolbox/cmake)\n'}
+[1.083094] (agv_pid_controller) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):\n'}
+[1.083437] (agv_pid_controller) StderrLine: {'line': b"  Package 'tl_expected' is deprecated (This package will be removed in ROS 2\n"}
+[1.083624] (agv_pid_controller) StderrLine: {'line': b'  Lyrical Luth.\n'}
+[1.083816] (agv_pid_controller) StderrLine: {'line': b'\n'}
+[1.083984] (agv_pid_controller) StderrLine: {'line': b'        Use tl/expected.hpp from libexpected-dev,\n'}
+[1.084147] (agv_pid_controller) StderrLine: {'line': b'        or rcpputils/tl_expected/expected.hpp if the system header is not available)\n'}
+[1.084286] (agv_pid_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.084444] (agv_pid_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.084589] (agv_pid_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)\n'}
+[1.084734] (agv_pid_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.084793] (agv_pid_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)\n'}
+[1.084849] (agv_pid_controller) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[1.084902] (agv_pid_controller) StderrLine: {'line': b'\n'}
+[1.084955] (agv_pid_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.112438] (-) TimerEvent: {}
+[1.217821] (-) TimerEvent: {}
+[1.322899] (-) TimerEvent: {}
+[1.358539] (agv_pid_controller) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.360390] (agv_pid_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.424529] (-) TimerEvent: {}
+[1.529966] (-) TimerEvent: {}
+[1.552320] (agv_pid_controller) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.579462] (agv_pid_controller) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.590078] (agv_pid_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/namtruong/xetuhanh/build/agv_pid_controller\n'}
+[1.631713] (-) TimerEvent: {}
+[1.683485] (agv_pid_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pid_velocity_node.dir/src/pid_velocity_node.cpp.o\x1b[0m\n'}
+[1.733931] (-) TimerEvent: {}
+[1.837543] (-) TimerEvent: {}
+[1.943089] (-) TimerEvent: {}
+[2.048450] (-) TimerEvent: {}
+[2.153961] (-) TimerEvent: {}
+[2.259669] (-) TimerEvent: {}
+[2.365066] (-) TimerEvent: {}
+[2.470526] (-) TimerEvent: {}
+[2.571930] (-) TimerEvent: {}
+[2.676516] (-) TimerEvent: {}
+[2.781753] (-) TimerEvent: {}
+[2.887113] (-) TimerEvent: {}
+[2.992519] (-) TimerEvent: {}
+[3.098008] (-) TimerEvent: {}
+[3.203584] (-) TimerEvent: {}
+[3.309089] (-) TimerEvent: {}
+[3.414609] (-) TimerEvent: {}
+[3.520175] (-) TimerEvent: {}
+[3.622172] (-) TimerEvent: {}
+[3.727751] (-) TimerEvent: {}
+[3.832537] (-) TimerEvent: {}
+[3.932965] (-) TimerEvent: {}
+[4.033397] (-) TimerEvent: {}
+[4.133811] (-) TimerEvent: {}
+[4.234259] (-) TimerEvent: {}
+[4.334736] (-) TimerEvent: {}
+[4.435157] (-) TimerEvent: {}
+[4.535574] (-) TimerEvent: {}
+[4.636126] (-) TimerEvent: {}
+[4.736513] (-) TimerEvent: {}
+[4.836960] (-) TimerEvent: {}
+[4.937381] (-) TimerEvent: {}
+[5.037869] (-) TimerEvent: {}
+[5.138418] (-) TimerEvent: {}
+[5.238912] (-) TimerEvent: {}
+[5.339476] (-) TimerEvent: {}
+[5.440007] (-) TimerEvent: {}
+[5.540453] (-) TimerEvent: {}
+[5.640911] (-) TimerEvent: {}
+[5.741332] (-) TimerEvent: {}
+[5.841754] (-) TimerEvent: {}
+[5.945628] (-) TimerEvent: {}
+[6.050973] (-) TimerEvent: {}
+[6.155372] (-) TimerEvent: {}
+[6.260798] (-) TimerEvent: {}
+[6.366248] (-) TimerEvent: {}
+[6.470032] (-) TimerEvent: {}
+[6.575574] (-) TimerEvent: {}
+[6.675989] (-) TimerEvent: {}
+[6.778539] (-) TimerEvent: {}
+[6.884073] (-) TimerEvent: {}
+[6.989525] (-) TimerEvent: {}
+[7.094882] (-) TimerEvent: {}
+[7.200314] (-) TimerEvent: {}
+[7.305827] (-) TimerEvent: {}
+[7.411381] (-) TimerEvent: {}
+[7.516865] (-) TimerEvent: {}
+[7.618539] (-) TimerEvent: {}
+[7.724187] (-) TimerEvent: {}
+[7.829482] (-) TimerEvent: {}
+[7.935106] (-) TimerEvent: {}
+[8.036990] (-) TimerEvent: {}
+[8.142482] (-) TimerEvent: {}
+[8.248045] (-) TimerEvent: {}
+[8.354262] (-) TimerEvent: {}
+[8.459867] (-) TimerEvent: {}
+[8.565418] (-) TimerEvent: {}
+[8.670967] (-) TimerEvent: {}
+[8.776407] (-) TimerEvent: {}
+[8.881951] (-) TimerEvent: {}
+[8.987456] (-) TimerEvent: {}
+[9.092944] (-) TimerEvent: {}
+[9.198218] (-) TimerEvent: {}
+[9.303731] (-) TimerEvent: {}
+[9.409147] (-) TimerEvent: {}
+[9.514685] (-) TimerEvent: {}
+[9.620369] (-) TimerEvent: {}
+[9.725858] (-) TimerEvent: {}
+[9.831220] (-) TimerEvent: {}
+[9.936631] (-) TimerEvent: {}
+[10.042110] (-) TimerEvent: {}
+[10.147660] (-) TimerEvent: {}
+[10.253137] (-) TimerEvent: {}
+[10.358745] (-) TimerEvent: {}
+[10.462690] (-) TimerEvent: {}
+[10.568300] (-) TimerEvent: {}
+[10.673839] (-) TimerEvent: {}
+[10.779003] (-) TimerEvent: {}
+[10.884488] (-) TimerEvent: {}
+[10.985042] (-) TimerEvent: {}
+[11.088504] (-) TimerEvent: {}
+[11.194171] (-) TimerEvent: {}
+[11.299562] (-) TimerEvent: {}
+[11.405015] (-) TimerEvent: {}
+[11.510126] (-) TimerEvent: {}
+[11.615714] (-) TimerEvent: {}
+[11.721195] (-) TimerEvent: {}
+[11.826548] (-) TimerEvent: {}
+[11.929343] (-) TimerEvent: {}
+[12.029773] (-) TimerEvent: {}
+[12.130267] (-) TimerEvent: {}
+[12.230812] (-) TimerEvent: {}
+[12.331266] (-) TimerEvent: {}
+[12.431721] (-) TimerEvent: {}
+[12.532290] (-) TimerEvent: {}
+[12.632731] (-) TimerEvent: {}
+[12.733141] (-) TimerEvent: {}
+[12.833642] (-) TimerEvent: {}
+[12.934012] (-) TimerEvent: {}
+[13.034441] (-) TimerEvent: {}
+[13.134884] (-) TimerEvent: {}
+[13.235382] (-) TimerEvent: {}
+[13.335767] (-) TimerEvent: {}
+[13.361654] (agv_pid_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pid_velocity_node\x1b[0m\n'}
+[13.435943] (-) TimerEvent: {}
+[13.536657] (-) TimerEvent: {}
+[13.637040] (-) TimerEvent: {}
+[13.737506] (-) TimerEvent: {}
+[13.837969] (-) TimerEvent: {}
+[13.939835] (-) TimerEvent: {}
+[13.958919] (agv_pid_controller) StdoutLine: {'line': b'[100%] Built target pid_velocity_node\n'}
+[13.972624] (agv_pid_controller) CommandEnded: {'returncode': 0}
+[13.973685] (agv_pid_controller) JobProgress: {'identifier': 'agv_pid_controller', 'progress': 'install'}
+[13.984387] (agv_pid_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/namtruong/xetuhanh/build/agv_pid_controller'], 'cwd': '/home/namtruong/xetuhanh/build/agv_pid_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'namtruong', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/namtruong', 'OLDPWD': '/home/namtruong/xetuhanh', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/namtruong/xetuhanh/install:/home/namtruong/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'namtruong', 'NAME': 'NamTruong', 'WSL_INTEROP': '/run/WSL/2849_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_3.0.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/WSL/:/mnt/c/Program Files (x86)/Microsoft SQL Server/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/180/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/170/DTS/Binn/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/nambe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nambe/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/namtruong/xetuhanh/install/robot_description:/home/namtruong/xetuhanh/install/agv_pid_controller:/home/namtruong/turtlebot3_ws/install/turtlebot3:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_simulations:/home/namtruong/turtlebot3_ws/install/turtlebot3_bringup:/home/namtruong/turtlebot3_ws/install/turtlebot3_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_navigation2:/home/namtruong/turtlebot3_ws/install/turtlebot3_fake_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs:/home/namtruong/turtlebot3_ws/install/turtlebot3_gazebo:/home/namtruong/turtlebot3_ws/install/turtlebot3_description:/home/namtruong/turtlebot3_ws/install/turtlebot3_cartographer:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_examples:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/namtruong/xetuhanh/build/agv_pid_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/namtruong/turtlebot3_ws/build/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/namtruong/turtlebot3_ws/build/turtlebot3_example:/home/namtruong/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/namtruong/xetuhanh/install/robot_description:/home/namtruong/xetuhanh/install/agv_pid_controller:/home/namtruong/turtlebot3_ws/install/turtlebot3:/home/namtruong/turtlebot3_ws/install/turtlebot3_simulations:/home/namtruong/turtlebot3_ws/install/turtlebot3_bringup:/home/namtruong/turtlebot3_ws/install/turtlebot3_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_navigation2:/home/namtruong/turtlebot3_ws/install/turtlebot3_fake_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs:/home/namtruong/turtlebot3_ws/install/turtlebot3_gazebo:/home/namtruong/turtlebot3_ws/install/turtlebot3_description:/home/namtruong/turtlebot3_ws/install/turtlebot3_cartographer:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_examples:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[13.993976] (agv_pid_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.994409] (agv_pid_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.995472] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/lib/agv_pid_controller/pid_velocity_node\n'}
+[13.995857] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/package_run_dependencies/agv_pid_controller\n'}
+[13.996670] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/parent_prefix_path/agv_pid_controller\n'}
+[13.997530] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.sh\n'}
+[13.998010] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.dsv\n'}
+[13.998515] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.sh\n'}
+[13.999014] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.dsv\n'}
+[13.999501] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.bash\n'}
+[14.000095] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.sh\n'}
+[14.000822] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.zsh\n'}
+[14.001285] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.dsv\n'}
+[14.001584] (agv_pid_controller) StdoutLine: {'line': b'-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.dsv\n'}
+[14.013275] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/packages/agv_pid_controller\n'}
+[14.014434] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig.cmake\n'}
+[14.015098] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig-version.cmake\n'}
+[14.015444] (agv_pid_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.xml\n'}
+[14.017699] (agv_pid_controller) CommandEnded: {'returncode': 0}
+[14.041038] (-) TimerEvent: {}
+[14.044412] (agv_pid_controller) JobEnded: {'identifier': 'agv_pid_controller', 'rc': 0}
+[14.045551] (-) EventReactorShutdown: {}

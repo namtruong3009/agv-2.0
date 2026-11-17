@@ -1,0 +1,24 @@
+[1.254s] Invoking command in '/home/namtruong/xetuhanh/build/agv_parameter_manager': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_parameter_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_parameter_manager/build --no-deps symlink_data
+[1.542s] running develop
+[1.729s] running egg_info
+[1.729s] creating agv_parameter_manager.egg-info
+[1.747s] writing agv_parameter_manager.egg-info/PKG-INFO
+[1.748s] writing dependency_links to agv_parameter_manager.egg-info/dependency_links.txt
+[1.748s] writing entry points to agv_parameter_manager.egg-info/entry_points.txt
+[1.748s] writing requirements to agv_parameter_manager.egg-info/requires.txt
+[1.748s] writing top-level names to agv_parameter_manager.egg-info/top_level.txt
+[1.748s] writing manifest file 'agv_parameter_manager.egg-info/SOURCES.txt'
+[1.784s] reading manifest file 'agv_parameter_manager.egg-info/SOURCES.txt'
+[1.785s] writing manifest file 'agv_parameter_manager.egg-info/SOURCES.txt'
+[1.804s] running build_ext
+[1.804s] Creating /home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages/agv-parameter-manager.egg-link (link to .)
+[1.805s] Installing sql_parameter_node script to /home/namtruong/xetuhanh/install/agv_parameter_manager/lib/agv_parameter_manager
+[1.806s] 
+[1.806s] Installed /home/namtruong/xetuhanh/build/agv_parameter_manager
+[1.806s] running symlink_data
+[1.806s] creating /home/namtruong/xetuhanh/install/agv_parameter_manager/share/ament_index
+[1.807s] creating /home/namtruong/xetuhanh/install/agv_parameter_manager/share/ament_index/resource_index
+[1.807s] creating /home/namtruong/xetuhanh/install/agv_parameter_manager/share/ament_index/resource_index/packages
+[1.808s] symbolically linking /home/namtruong/xetuhanh/build/agv_parameter_manager/resource/agv_parameter_manager -> /home/namtruong/xetuhanh/install/agv_parameter_manager/share/ament_index/resource_index/packages
+[1.808s] symbolically linking /home/namtruong/xetuhanh/build/agv_parameter_manager/package.xml -> /home/namtruong/xetuhanh/install/agv_parameter_manager/share/agv_parameter_manager
+[1.846s] Invoked command in '/home/namtruong/xetuhanh/build/agv_parameter_manager' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_parameter_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_parameter_manager/build --no-deps symlink_data

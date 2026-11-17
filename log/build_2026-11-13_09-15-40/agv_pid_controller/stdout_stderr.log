@@ -1,0 +1,96 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found control_toolbox: 4.11.1 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+  Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+  Lyrical Luth.
+
+        Use tl/expected.hpp from libexpected-dev,
+        or rcpputils/tl_expected/expected.hpp if the system header is not available)
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+  /opt/ros/jazzy/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+
+[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+-- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done (3.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/namtruong/xetuhanh/build/agv_pid_controller
+[ 50%] [32mBuilding CXX object CMakeFiles/pid_velocity_node.dir/src/pid_velocity_node.cpp.o[0m
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:[m[K In constructor ‘[01m[KPidVelocityNode::[01;32m[KPidVelocityNode[m[K()[m[K’:
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:18:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontrol_toolbox::Pid::[01;32m[KPid[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use constructor with AntiWindupStrategy only. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   18 |   PidVelocityNode() : Node("pid_velocity_node"[01;35m[K)[m[K
+      |                                               [01;35m[K^[m[K
+In file included from [01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:11[m[K:
+[01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:449:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  449 |   [01;36m[KPid[m[K(
+      |   [01;36m[K^~~[m[K
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:18:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontrol_toolbox::Pid::[01;32m[KPid[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use constructor with AntiWindupStrategy only. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   18 |   PidVelocityNode() : Node("pid_velocity_node"[01;35m[K)[m[K
+      |                                               [01;35m[K^[m[K
+[01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:449:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  449 |   [01;36m[KPid[m[K(
+      |   [01;36m[K^~~[m[K
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:34:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool control_toolbox::Pid::[01;32m[Kinitialize[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use initialize with AntiWindupStrategy instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   34 |     [01;35m[Kpid_v_.initialize(kp_v, ki_v, kd_v, 0.2, -0.2, true)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:499:8:[m[K [01;36m[Knote: [m[Kdeclared here
+  499 |   bool [01;36m[Kinitialize[m[K(
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:35:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool control_toolbox::Pid::[01;32m[Kinitialize[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use initialize with AntiWindupStrategy instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   35 |     [01;35m[Kpid_w_.initialize(kp_w, ki_w, kd_w, 0.5, -0.5, true)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:499:8:[m[K [01;36m[Knote: [m[Kdeclared here
+  499 |   bool [01;36m[Kinitialize[m[K(
+      |        [01;36m[K^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable pid_velocity_node[0m
+[100%] Built target pid_velocity_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/lib/agv_pid_controller/pid_velocity_node
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/package_run_dependencies/agv_pid_controller
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/parent_prefix_path/agv_pid_controller
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.sh
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.dsv
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.bash
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.sh
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.zsh
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.dsv
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.dsv
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/packages/agv_pid_controller
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig.cmake
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig-version.cmake
+-- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.xml

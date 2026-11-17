@@ -1,0 +1,12 @@
+[0.015s] Invoking command in '/home/namtruong/xetuhanh/build/agv_pid_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_pid_controller -- -j16 -l16
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/pid_velocity_node.dir/src/pid_velocity_node.cpp.o[0m
+[2.246s] [01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:129:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[Kcontrol_toolbox::AntiWindupStrategy::CONDITIONAL_INTEGRATION[m[K’ from ‘[01m[Kint8_t[m[K’ {aka ‘[01m[Ksigned char[m[K’} to ‘[01m[Kbool[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.247s]   129 |   [01;31m[K}[m[K;
+[2.247s]       |   [01;31m[K^[m[K
+[2.247s] [01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:133:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[Kcontrol_toolbox::AntiWindupStrategy::CONDITIONAL_INTEGRATION[m[K’ from ‘[01m[Kint8_t[m[K’ {aka ‘[01m[Ksigned char[m[K’} to ‘[01m[Kbool[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.247s]   133 |   [01;31m[K}[m[K;
+[2.247s]       |   [01;31m[K^[m[K
+[4.560s] gmake[2]: *** [CMakeFiles/pid_velocity_node.dir/build.make:76: CMakeFiles/pid_velocity_node.dir/src/pid_velocity_node.cpp.o] Error 1
+[4.560s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pid_velocity_node.dir/all] Error 2
+[4.560s] gmake: *** [Makefile:146: all] Error 2
+[4.563s] Invoked command in '/home/namtruong/xetuhanh/build/agv_pid_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_pid_controller -- -j16 -l16

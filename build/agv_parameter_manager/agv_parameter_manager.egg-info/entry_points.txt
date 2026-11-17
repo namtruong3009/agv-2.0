@@ -1,0 +1,2 @@
+[console_scripts]
+sql_parameter_node = agv_parameter_manager.sql_parameter_node:main

@@ -1,0 +1,57 @@
+[0.024s] Invoking command in '/home/namtruong/xetuhanh/build/agv_pid_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_pid_controller -- -j16 -l16
+[0.131s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.348s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.370s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.514s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.528s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.660s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.664s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.836s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.994s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.038s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.070s] -- Found control_toolbox: 4.11.1 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[1.082s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[1.083s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[1.083s]   Lyrical Luth.
+[1.083s] 
+[1.083s]         Use tl/expected.hpp from libexpected-dev,
+[1.083s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[1.083s] Call Stack (most recent call first):
+[1.084s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.084s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[1.084s]   /opt/ros/jazzy/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.084s]   /opt/ros/jazzy/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+[1.084s]   CMakeLists.txt:14 (find_package)
+[1.084s] 
+[1.084s] [0m
+[1.358s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.360s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.551s] -- Configuring done (1.4s)
+[1.579s] -- Generating done (0.0s)
+[1.589s] -- Build files have been written to: /home/namtruong/xetuhanh/build/agv_pid_controller
+[1.683s] [ 50%] [32mBuilding CXX object CMakeFiles/pid_velocity_node.dir/src/pid_velocity_node.cpp.o[0m
+[13.361s] [100%] [32m[1mLinking CXX executable pid_velocity_node[0m
+[13.958s] [100%] Built target pid_velocity_node
+[13.972s] Invoked command in '/home/namtruong/xetuhanh/build/agv_pid_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_pid_controller -- -j16 -l16
+[13.984s] Invoking command in '/home/namtruong/xetuhanh/build/agv_pid_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_pid_controller
+[13.993s] -- Install configuration: ""
+[13.994s] -- Execute custom install script
+[13.995s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/lib/agv_pid_controller/pid_velocity_node
+[13.995s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/package_run_dependencies/agv_pid_controller
+[13.996s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/parent_prefix_path/agv_pid_controller
+[13.997s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.sh
+[13.997s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.dsv
+[13.998s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.sh
+[13.998s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.dsv
+[13.999s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.bash
+[13.999s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.sh
+[14.000s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.zsh
+[14.001s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.dsv
+[14.001s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.dsv
+[14.013s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/packages/agv_pid_controller
+[14.014s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig.cmake
+[14.014s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig-version.cmake
+[14.015s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.xml
+[14.017s] Invoked command in '/home/namtruong/xetuhanh/build/agv_pid_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_pid_controller

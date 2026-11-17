@@ -1,0 +1,1 @@
+/home/namtruong/xetuhanh/src/agv_parameter_manager/setup.py

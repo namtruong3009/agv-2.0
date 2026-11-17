@@ -1,0 +1,13 @@
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:126:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontrol_toolbox::Pid::[01;32m[KPid[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use constructor with AntiWindupStrategy only. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  126 |   control_toolbox::Pid pid_v_{[01;35m[K}[m[K;
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:11[m[K:
+[01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:449:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  449 |   [01;36m[KPid[m[K(
+      |   [01;36m[K^~~[m[K
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:127:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontrol_toolbox::Pid::[01;32m[KPid[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use constructor with AntiWindupStrategy only. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  127 |   control_toolbox::Pid pid_w_{[01;35m[K}[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:449:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  449 |   [01;36m[KPid[m[K(
+      |   [01;36m[K^~~[m[K

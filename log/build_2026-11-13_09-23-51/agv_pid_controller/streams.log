@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/namtruong/xetuhanh/build/agv_pid_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_pid_controller -- -j16 -l16
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/pid_velocity_node.dir/src/pid_velocity_node.cpp.o[0m
+[8.374s] [100%] [32m[1mLinking CXX executable pid_velocity_node[0m
+[8.782s] [100%] Built target pid_velocity_node
+[8.794s] Invoked command in '/home/namtruong/xetuhanh/build/agv_pid_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_pid_controller -- -j16 -l16
+[8.795s] Invoking command in '/home/namtruong/xetuhanh/build/agv_pid_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_pid_controller
+[8.805s] -- Install configuration: ""
+[8.805s] -- Execute custom install script
+[8.805s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/lib/agv_pid_controller/pid_velocity_node
+[8.805s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/package_run_dependencies/agv_pid_controller
+[8.805s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/parent_prefix_path/agv_pid_controller
+[8.806s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.sh
+[8.806s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.dsv
+[8.806s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.sh
+[8.806s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.dsv
+[8.806s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.bash
+[8.807s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.sh
+[8.807s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.zsh
+[8.807s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.dsv
+[8.807s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.dsv
+[8.818s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/packages/agv_pid_controller
+[8.818s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig.cmake
+[8.818s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig-version.cmake
+[8.818s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.xml
+[8.821s] Invoked command in '/home/namtruong/xetuhanh/build/agv_pid_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_pid_controller

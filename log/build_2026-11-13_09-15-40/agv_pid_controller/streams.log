@@ -1,0 +1,102 @@
+[0.025s] Invoking command in '/home/namtruong/xetuhanh/build/agv_pid_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/namtruong/xetuhanh/src/agv_pid_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/namtruong/xetuhanh/install/agv_pid_controller
+[0.276s] -- The C compiler identification is GNU 13.3.0
+[0.650s] -- The CXX compiler identification is GNU 13.3.0
+[0.933s] -- Detecting C compiler ABI info
+[1.106s] -- Detecting C compiler ABI info - done
+[1.114s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.114s] -- Detecting C compile features
+[1.115s] -- Detecting C compile features - done
+[1.166s] -- Detecting CXX compiler ABI info
+[1.344s] -- Detecting CXX compiler ABI info - done
+[1.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.352s] -- Detecting CXX compile features
+[1.353s] -- Detecting CXX compile features - done
+[1.368s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.532s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.600s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.675s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.804s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.826s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.874s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.970s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.975s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.100s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.200s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.264s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.421s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.459s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.497s] -- Found control_toolbox: 4.11.1 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[2.548s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[2.548s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[2.549s]   Lyrical Luth.
+[2.549s] 
+[2.549s]         Use tl/expected.hpp from libexpected-dev,
+[2.549s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[2.549s] Call Stack (most recent call first):
+[2.549s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.549s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[2.549s]   /opt/ros/jazzy/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.549s]   /opt/ros/jazzy/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+[2.549s]   CMakeLists.txt:13 (find_package)
+[2.549s] 
+[2.549s] [0m
+[2.791s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[3.072s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.074s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.074s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.255s] -- Configuring done (3.2s)
+[3.278s] -- Generating done (0.0s)
+[3.282s] -- Build files have been written to: /home/namtruong/xetuhanh/build/agv_pid_controller
+[3.294s] Invoked command in '/home/namtruong/xetuhanh/build/agv_pid_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/namtruong/xetuhanh/src/agv_pid_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/namtruong/xetuhanh/install/agv_pid_controller
+[3.295s] Invoking command in '/home/namtruong/xetuhanh/build/agv_pid_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_pid_controller -- -j16 -l16
+[3.357s] [ 50%] [32mBuilding CXX object CMakeFiles/pid_velocity_node.dir/src/pid_velocity_node.cpp.o[0m
+[5.914s] [01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:[m[K In constructor ‘[01m[KPidVelocityNode::[01;32m[KPidVelocityNode[m[K()[m[K’:
+[5.915s] [01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:18:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontrol_toolbox::Pid::[01;32m[KPid[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use constructor with AntiWindupStrategy only. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.915s]    18 |   PidVelocityNode() : Node("pid_velocity_node"[01;35m[K)[m[K
+[5.915s]       |                                               [01;35m[K^[m[K
+[5.915s] In file included from [01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:11[m[K:
+[5.915s] [01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:449:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.915s]   449 |   [01;36m[KPid[m[K(
+[5.915s]       |   [01;36m[K^~~[m[K
+[5.915s] [01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:18:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontrol_toolbox::Pid::[01;32m[KPid[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use constructor with AntiWindupStrategy only. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.915s]    18 |   PidVelocityNode() : Node("pid_velocity_node"[01;35m[K)[m[K
+[5.916s]       |                                               [01;35m[K^[m[K
+[5.916s] [01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:449:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.916s]   449 |   [01;36m[KPid[m[K(
+[5.916s]       |   [01;36m[K^~~[m[K
+[5.916s] [01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:34:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool control_toolbox::Pid::[01;32m[Kinitialize[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use initialize with AntiWindupStrategy instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.916s]    34 |     [01;35m[Kpid_v_.initialize(kp_v, ki_v, kd_v, 0.2, -0.2, true)[m[K;
+[5.916s]       |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.916s] [01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:499:8:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.916s]   499 |   bool [01;36m[Kinitialize[m[K(
+[5.917s]       |        [01;36m[K^~~~~~~~~~[m[K
+[5.917s] [01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:35:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool control_toolbox::Pid::[01;32m[Kinitialize[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use initialize with AntiWindupStrategy instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.917s]    35 |     [01;35m[Kpid_w_.initialize(kp_w, ki_w, kd_w, 0.5, -0.5, true)[m[K;
+[5.917s]       |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.917s] [01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:499:8:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.917s]   499 |   bool [01;36m[Kinitialize[m[K(
+[5.917s]       |        [01;36m[K^~~~~~~~~~[m[K
+[12.247s] [100%] [32m[1mLinking CXX executable pid_velocity_node[0m
+[12.822s] [100%] Built target pid_velocity_node
+[12.834s] Invoked command in '/home/namtruong/xetuhanh/build/agv_pid_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_pid_controller -- -j16 -l16
+[12.836s] Invoking command in '/home/namtruong/xetuhanh/build/agv_pid_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_pid_controller
+[12.845s] -- Install configuration: ""
+[12.846s] -- Execute custom install script
+[12.847s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/lib/agv_pid_controller/pid_velocity_node
+[12.859s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/package_run_dependencies/agv_pid_controller
+[12.870s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/parent_prefix_path/agv_pid_controller
+[12.882s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.sh
+[12.893s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.dsv
+[12.904s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.sh
+[12.914s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.dsv
+[12.924s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.bash
+[12.935s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.sh
+[12.946s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.zsh
+[12.972s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.dsv
+[12.982s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.dsv
+[12.992s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/packages/agv_pid_controller
+[13.003s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig.cmake
+[13.013s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig-version.cmake
+[13.023s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.xml
+[13.035s] Invoked command in '/home/namtruong/xetuhanh/build/agv_pid_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_pid_controller

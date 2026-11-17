@@ -1,0 +1,1 @@
+/home/namtruong/xetuhanh/src/robot_description/scripts/keyboard_direct.py

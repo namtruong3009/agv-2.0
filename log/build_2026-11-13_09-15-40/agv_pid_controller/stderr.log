@@ -1,0 +1,40 @@
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+  Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+  Lyrical Luth.
+
+        Use tl/expected.hpp from libexpected-dev,
+        or rcpputils/tl_expected/expected.hpp if the system header is not available)
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+  /opt/ros/jazzy/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+
+[0m
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:[m[K In constructor ‘[01m[KPidVelocityNode::[01;32m[KPidVelocityNode[m[K()[m[K’:
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:18:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontrol_toolbox::Pid::[01;32m[KPid[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use constructor with AntiWindupStrategy only. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   18 |   PidVelocityNode() : Node("pid_velocity_node"[01;35m[K)[m[K
+      |                                               [01;35m[K^[m[K
+In file included from [01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:11[m[K:
+[01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:449:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  449 |   [01;36m[KPid[m[K(
+      |   [01;36m[K^~~[m[K
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:18:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcontrol_toolbox::Pid::[01;32m[KPid[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use constructor with AntiWindupStrategy only. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   18 |   PidVelocityNode() : Node("pid_velocity_node"[01;35m[K)[m[K
+      |                                               [01;35m[K^[m[K
+[01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:449:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  449 |   [01;36m[KPid[m[K(
+      |   [01;36m[K^~~[m[K
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:34:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool control_toolbox::Pid::[01;32m[Kinitialize[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use initialize with AntiWindupStrategy instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   34 |     [01;35m[Kpid_v_.initialize(kp_v, ki_v, kd_v, 0.2, -0.2, true)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:499:8:[m[K [01;36m[Knote: [m[Kdeclared here
+  499 |   bool [01;36m[Kinitialize[m[K(
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/namtruong/xetuhanh/src/agv_pid_controller/src/pid_velocity_node.cpp:35:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool control_toolbox::Pid::[01;32m[Kinitialize[m[K(double, double, double, double, double, bool)[m[K’ is deprecated: Use initialize with AntiWindupStrategy instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   35 |     [01;35m[Kpid_w_.initialize(kp_w, ki_w, kd_w, 0.5, -0.5, true)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/control_toolbox/control_toolbox/pid.hpp:499:8:[m[K [01;36m[Knote: [m[Kdeclared here
+  499 |   bool [01;36m[Kinitialize[m[K(
+      |        [01;36m[K^~~~~~~~~~[m[K
