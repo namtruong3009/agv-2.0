@@ -1,0 +1,21 @@
+[1.285s] Invoking command in '/home/namtruong/xetuhanh/src/agv_sensor_fusion': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_sensor_fusion build --build-base /home/namtruong/xetuhanh/build/agv_sensor_fusion/build install --record /home/namtruong/xetuhanh/build/agv_sensor_fusion/install.log --install-scripts $base/lib/agv_sensor_fusion --single-version-externally-managed install_data
+[1.559s] running egg_info
+[1.578s] writing ../../build/agv_sensor_fusion/agv_sensor_fusion.egg-info/PKG-INFO
+[1.579s] writing dependency_links to ../../build/agv_sensor_fusion/agv_sensor_fusion.egg-info/dependency_links.txt
+[1.579s] writing entry points to ../../build/agv_sensor_fusion/agv_sensor_fusion.egg-info/entry_points.txt
+[1.579s] writing requirements to ../../build/agv_sensor_fusion/agv_sensor_fusion.egg-info/requires.txt
+[1.579s] writing top-level names to ../../build/agv_sensor_fusion/agv_sensor_fusion.egg-info/top_level.txt
+[1.615s] reading manifest file '../../build/agv_sensor_fusion/agv_sensor_fusion.egg-info/SOURCES.txt'
+[1.615s] writing manifest file '../../build/agv_sensor_fusion/agv_sensor_fusion.egg-info/SOURCES.txt'
+[1.616s] running build
+[1.616s] running build_py
+[1.616s] running install
+[1.621s] running install_lib
+[1.641s] running install_data
+[1.641s] running install_egg_info
+[1.662s] removing '/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages/agv_sensor_fusion-0.0.0-py3.12.egg-info' (and everything under it)
+[1.662s] Copying ../../build/agv_sensor_fusion/agv_sensor_fusion.egg-info to /home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages/agv_sensor_fusion-0.0.0-py3.12.egg-info
+[1.664s] running install_scripts
+[1.790s] Installing imu_sensor_sim_node script to /home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/agv_sensor_fusion
+[1.790s] writing list of installed files to '/home/namtruong/xetuhanh/build/agv_sensor_fusion/install.log'
+[1.834s] Invoked command in '/home/namtruong/xetuhanh/src/agv_sensor_fusion' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_sensor_fusion build --build-base /home/namtruong/xetuhanh/build/agv_sensor_fusion/build install --record /home/namtruong/xetuhanh/build/agv_sensor_fusion/install.log --install-scripts $base/lib/agv_sensor_fusion --single-version-externally-managed install_data

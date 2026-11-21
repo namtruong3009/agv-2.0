@@ -5,7 +5,7 @@ set(robot_description_BUILD_DEPENDS "robot_state_publisher" "xacro" "ros_gz_sim"
 set(robot_description_BUILDTOOL_DEPENDS "ament_cmake")
 set(robot_description_BUILD_EXPORT_DEPENDS "robot_state_publisher" "xacro" "ros_gz_sim")
 set(robot_description_BUILDTOOL_EXPORT_DEPENDS )
-set(robot_description_EXEC_DEPENDS "agv_ekf" "agv_base_interface" "robot_state_publisher" "xacro" "ros_gz_sim")
+set(robot_description_EXEC_DEPENDS "agv_ekf" "agv_base_interface" "agv_sensor_fusion" "imu_filter_madgwick" "robot_state_publisher" "xacro" "ros_gz_sim")
 set(robot_description_TEST_DEPENDS )
 set(robot_description_GROUP_DEPENDS )
 set(robot_description_MEMBER_OF_GROUPS )

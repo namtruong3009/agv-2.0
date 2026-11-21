@@ -1,0 +1,41 @@
+[0.265s] Invoking command in '/home/namtruong/xetuhanh/build/agv_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/namtruong/xetuhanh/src/agv_ekf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/namtruong/xetuhanh/install/agv_ekf
+[0.304s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.578s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.588s] -- Found robot_localization: 3.8.3 (/opt/ros/jazzy/share/robot_localization/cmake)
+[0.693s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.709s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.729s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.744s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.908s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.028s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.028s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.029s] -- Added test 'lint_cmake' to check CMake code style
+[1.029s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.030s] -- Added test 'xmllint' to check XML markup files
+[1.031s] -- Configuring done (0.7s)
+[1.041s] -- Generating done (0.0s)
+[1.044s] -- Build files have been written to: /home/namtruong/xetuhanh/build/agv_ekf
+[1.053s] Invoked command in '/home/namtruong/xetuhanh/build/agv_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/namtruong/xetuhanh/src/agv_ekf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/namtruong/xetuhanh/install/agv_ekf
+[1.054s] Invoking command in '/home/namtruong/xetuhanh/build/agv_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_ekf -- -j16 -l16
+[1.102s] Invoked command in '/home/namtruong/xetuhanh/build/agv_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_ekf -- -j16 -l16
+[1.115s] Invoking command in '/home/namtruong/xetuhanh/build/agv_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_ekf
+[1.125s] -- Install configuration: ""
+[1.125s] -- Execute custom install script
+[1.125s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/config/ekf.yaml
+[1.126s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/launch/ekf.launch.py
+[1.126s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/ament_index/resource_index/package_run_dependencies/agv_ekf
+[1.126s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/ament_index/resource_index/parent_prefix_path/agv_ekf
+[1.126s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/environment/ament_prefix_path.sh
+[1.127s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/environment/ament_prefix_path.dsv
+[1.127s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/environment/path.sh
+[1.127s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/environment/path.dsv
+[1.127s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/local_setup.bash
+[1.127s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/local_setup.sh
+[1.128s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/local_setup.zsh
+[1.128s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/local_setup.dsv
+[1.128s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.dsv
+[1.139s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/ament_index/resource_index/packages/agv_ekf
+[1.139s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/cmake/agv_ekfConfig.cmake
+[1.139s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/cmake/agv_ekfConfig-version.cmake
+[1.140s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.xml
+[1.142s] Invoked command in '/home/namtruong/xetuhanh/build/agv_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_ekf

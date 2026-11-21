@@ -1,1 +1,0 @@
-/home/namtruong/xetuhanh/src/agv_base_interface/setup.py

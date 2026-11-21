@@ -7,12 +7,18 @@ from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
 from nav_msgs.msg import Odometry
 from sensor_msgs.msg import JointState
+from rcl_interfaces.msg import SetParametersResult
 
 
 class WheelOdometryNode(Node):
     def __init__(self):
         super().__init__('wheel_odometry_node')
-
+        self.declare_parameter('odom_vx_std', 0.03)
+        self.declare_parameter('odom_vy_std', 0.01)
+        self.declare_parameter('odom_wz_std', 0.05)
+        self.add_on_set_parameters_callback(
+            self.validate_parameters
+        )
         self.declare_parameter('wheel_radius', 0.0425)
         self.declare_parameter('wheel_separation', 0.250)
         self.declare_parameter('left_joint', 'wheel_left_joint')
@@ -137,8 +143,12 @@ class WheelOdometryNode(Node):
         ]
 
         twist_stds = [
-            0.03, 0.01, 1000.0,
-            1000.0, 1000.0, 0.05
+            float(self.get_parameter('odom_vx_std').value),
+            float(self.get_parameter('odom_vy_std').value),
+            1000.0,
+            1000.0,
+            1000.0,
+            float(self.get_parameter('odom_wz_std').value)
         ]
 
         for i in range(6):
@@ -151,6 +161,24 @@ class WheelOdometryNode(Node):
 
         self.pub.publish(out)
 
+    def validate_parameters(self, params):
+        for p in params:
+            if p.name in (
+                'odom_vx_std',
+                'odom_vy_std',
+                'odom_wz_std'
+            ):
+                if (
+                    not isinstance(p.value, float)
+                    or not math.isfinite(p.value)
+                    or not 0.0 < p.value <= 100.0
+                ):
+                    return SetParametersResult(
+                        successful=False,
+                        reason=f'Invalid parameter: {p.name}'
+                    )
+
+        return SetParametersResult(successful=True)
 
 def main(args=None):
     rclpy.init(args=args)

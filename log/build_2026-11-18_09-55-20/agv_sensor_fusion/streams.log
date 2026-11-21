@@ -1,0 +1,19 @@
+[1.632s] Invoking command in '/home/namtruong/xetuhanh/build/agv_sensor_fusion': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_sensor_fusion/build --no-deps symlink_data --force
+[1.973s] running develop
+[2.182s] running egg_info
+[2.204s] writing agv_sensor_fusion.egg-info/PKG-INFO
+[2.204s] writing dependency_links to agv_sensor_fusion.egg-info/dependency_links.txt
+[2.204s] writing entry points to agv_sensor_fusion.egg-info/entry_points.txt
+[2.204s] writing requirements to agv_sensor_fusion.egg-info/requires.txt
+[2.205s] writing top-level names to agv_sensor_fusion.egg-info/top_level.txt
+[2.242s] reading manifest file 'agv_sensor_fusion.egg-info/SOURCES.txt'
+[2.243s] writing manifest file 'agv_sensor_fusion.egg-info/SOURCES.txt'
+[2.263s] running build_ext
+[2.264s] Creating /home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages/agv-sensor-fusion.egg-link (link to .)
+[2.265s] Installing imu_sensor_sim_node script to /home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/agv_sensor_fusion
+[2.265s] 
+[2.265s] Installed /home/namtruong/xetuhanh/build/agv_sensor_fusion
+[2.265s] running symlink_data
+[2.266s] symbolically linking /home/namtruong/xetuhanh/build/agv_sensor_fusion/resource/agv_sensor_fusion -> /home/namtruong/xetuhanh/install/agv_sensor_fusion/share/ament_index/resource_index/packages
+[2.266s] symbolically linking /home/namtruong/xetuhanh/build/agv_sensor_fusion/package.xml -> /home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion
+[2.321s] Invoked command in '/home/namtruong/xetuhanh/build/agv_sensor_fusion' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_sensor_fusion/build --no-deps symlink_data --force

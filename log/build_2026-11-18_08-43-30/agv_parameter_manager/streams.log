@@ -1,0 +1,36 @@
+[1.334s] Invoking command in '/home/namtruong/xetuhanh/build/agv_parameter_manager': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_parameter_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/namtruong/xetuhanh/build/agv_parameter_manager/build
+[1.647s] running develop
+[1.865s] Removing /home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages/agv-parameter-manager.egg-link (link to .)
+[1.925s] Invoked command in '/home/namtruong/xetuhanh/build/agv_parameter_manager' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_parameter_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/namtruong/xetuhanh/build/agv_parameter_manager/build
+[1.926s] Invoking command in '/home/namtruong/xetuhanh/src/agv_parameter_manager': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_parameter_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_parameter_manager build --build-base /home/namtruong/xetuhanh/build/agv_parameter_manager/build install --record /home/namtruong/xetuhanh/build/agv_parameter_manager/install.log --install-scripts $base/lib/agv_parameter_manager --single-version-externally-managed install_data --force
+[2.223s] running egg_info
+[2.242s] writing ../../build/agv_parameter_manager/agv_parameter_manager.egg-info/PKG-INFO
+[2.243s] writing dependency_links to ../../build/agv_parameter_manager/agv_parameter_manager.egg-info/dependency_links.txt
+[2.243s] writing entry points to ../../build/agv_parameter_manager/agv_parameter_manager.egg-info/entry_points.txt
+[2.243s] writing requirements to ../../build/agv_parameter_manager/agv_parameter_manager.egg-info/requires.txt
+[2.244s] writing top-level names to ../../build/agv_parameter_manager/agv_parameter_manager.egg-info/top_level.txt
+[2.287s] reading manifest file '../../build/agv_parameter_manager/agv_parameter_manager.egg-info/SOURCES.txt'
+[2.289s] writing manifest file '../../build/agv_parameter_manager/agv_parameter_manager.egg-info/SOURCES.txt'
+[2.289s] running build
+[2.290s] running build_py
+[2.290s] creating /home/namtruong/xetuhanh/build/agv_parameter_manager/build
+[2.290s] creating /home/namtruong/xetuhanh/build/agv_parameter_manager/build/lib
+[2.291s] creating /home/namtruong/xetuhanh/build/agv_parameter_manager/build/lib/agv_parameter_manager
+[2.292s] copying agv_parameter_manager/sql_parameter_node.py -> /home/namtruong/xetuhanh/build/agv_parameter_manager/build/lib/agv_parameter_manager
+[2.292s] copying agv_parameter_manager/__init__.py -> /home/namtruong/xetuhanh/build/agv_parameter_manager/build/lib/agv_parameter_manager
+[2.292s] running install
+[2.300s] running install_lib
+[2.320s] creating /home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages/agv_parameter_manager
+[2.320s] copying /home/namtruong/xetuhanh/build/agv_parameter_manager/build/lib/agv_parameter_manager/sql_parameter_node.py -> /home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages/agv_parameter_manager
+[2.321s] copying /home/namtruong/xetuhanh/build/agv_parameter_manager/build/lib/agv_parameter_manager/__init__.py -> /home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages/agv_parameter_manager
+[2.321s] byte-compiling /home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages/agv_parameter_manager/sql_parameter_node.py to sql_parameter_node.cpython-312.pyc
+[2.324s] byte-compiling /home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages/agv_parameter_manager/__init__.py to __init__.cpython-312.pyc
+[2.324s] running install_data
+[2.324s] copying resource/agv_parameter_manager -> /home/namtruong/xetuhanh/install/agv_parameter_manager/share/ament_index/resource_index/packages
+[2.324s] copying package.xml -> /home/namtruong/xetuhanh/install/agv_parameter_manager/share/agv_parameter_manager
+[2.325s] running install_egg_info
+[2.344s] Copying ../../build/agv_parameter_manager/agv_parameter_manager.egg-info to /home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages/agv_parameter_manager-0.0.0-py3.12.egg-info
+[2.346s] running install_scripts
+[2.479s] Installing sql_parameter_node script to /home/namtruong/xetuhanh/install/agv_parameter_manager/lib/agv_parameter_manager
+[2.479s] writing list of installed files to '/home/namtruong/xetuhanh/build/agv_parameter_manager/install.log'
+[2.535s] Invoked command in '/home/namtruong/xetuhanh/src/agv_parameter_manager' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_parameter_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_parameter_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_parameter_manager build --build-base /home/namtruong/xetuhanh/build/agv_parameter_manager/build install --record /home/namtruong/xetuhanh/build/agv_parameter_manager/install.log --install-scripts $base/lib/agv_parameter_manager --single-version-externally-managed install_data --force

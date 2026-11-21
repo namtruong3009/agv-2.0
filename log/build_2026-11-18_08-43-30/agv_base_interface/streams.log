@@ -1,0 +1,35 @@
+[1.379s] Invoking command in '/home/namtruong/xetuhanh/build/agv_base_interface': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/namtruong/xetuhanh/build/agv_base_interface/build
+[1.705s] running develop
+[1.909s] Removing /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv-base-interface.egg-link (link to .)
+[1.956s] Invoked command in '/home/namtruong/xetuhanh/build/agv_base_interface' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/namtruong/xetuhanh/build/agv_base_interface/build
+[1.958s] Invoking command in '/home/namtruong/xetuhanh/src/agv_base_interface': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_base_interface build --build-base /home/namtruong/xetuhanh/build/agv_base_interface/build install --record /home/namtruong/xetuhanh/build/agv_base_interface/install.log --install-scripts $base/lib/agv_base_interface --single-version-externally-managed install_data --force
+[2.243s] running egg_info
+[2.261s] writing ../../build/agv_base_interface/agv_base_interface.egg-info/PKG-INFO
+[2.262s] writing dependency_links to ../../build/agv_base_interface/agv_base_interface.egg-info/dependency_links.txt
+[2.262s] writing entry points to ../../build/agv_base_interface/agv_base_interface.egg-info/entry_points.txt
+[2.262s] writing requirements to ../../build/agv_base_interface/agv_base_interface.egg-info/requires.txt
+[2.262s] writing top-level names to ../../build/agv_base_interface/agv_base_interface.egg-info/top_level.txt
+[2.307s] reading manifest file '../../build/agv_base_interface/agv_base_interface.egg-info/SOURCES.txt'
+[2.307s] writing manifest file '../../build/agv_base_interface/agv_base_interface.egg-info/SOURCES.txt'
+[2.308s] running build
+[2.308s] running build_py
+[2.309s] copying agv_base_interface/wheel_odometry_node.py -> /home/namtruong/xetuhanh/build/agv_base_interface/build/lib/agv_base_interface
+[2.309s] running install
+[2.317s] running install_lib
+[2.337s] creating /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv_base_interface
+[2.337s] copying /home/namtruong/xetuhanh/build/agv_base_interface/build/lib/agv_base_interface/encoder_sim_node.py -> /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv_base_interface
+[2.337s] copying /home/namtruong/xetuhanh/build/agv_base_interface/build/lib/agv_base_interface/__init__.py -> /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv_base_interface
+[2.338s] copying /home/namtruong/xetuhanh/build/agv_base_interface/build/lib/agv_base_interface/wheel_odometry_node.py -> /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv_base_interface
+[2.338s] byte-compiling /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv_base_interface/encoder_sim_node.py to encoder_sim_node.cpython-312.pyc
+[2.340s] byte-compiling /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv_base_interface/__init__.py to __init__.cpython-312.pyc
+[2.340s] byte-compiling /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv_base_interface/wheel_odometry_node.py to wheel_odometry_node.cpython-312.pyc
+[2.341s] running install_data
+[2.341s] copying resource/agv_base_interface -> /home/namtruong/xetuhanh/install/agv_base_interface/share/ament_index/resource_index/packages
+[2.341s] copying package.xml -> /home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface
+[2.342s] running install_egg_info
+[2.361s] Copying ../../build/agv_base_interface/agv_base_interface.egg-info to /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv_base_interface-0.0.0-py3.12.egg-info
+[2.363s] running install_scripts
+[2.498s] Installing encoder_sim_node script to /home/namtruong/xetuhanh/install/agv_base_interface/lib/agv_base_interface
+[2.499s] Installing wheel_odometry_node script to /home/namtruong/xetuhanh/install/agv_base_interface/lib/agv_base_interface
+[2.499s] writing list of installed files to '/home/namtruong/xetuhanh/build/agv_base_interface/install.log'
+[2.549s] Invoked command in '/home/namtruong/xetuhanh/src/agv_base_interface' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_base_interface build --build-base /home/namtruong/xetuhanh/build/agv_base_interface/build install --record /home/namtruong/xetuhanh/build/agv_base_interface/install.log --install-scripts $base/lib/agv_base_interface --single-version-externally-managed install_data --force

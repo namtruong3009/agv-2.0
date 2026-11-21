@@ -1,0 +1,20 @@
+[1.668s] Invoking command in '/home/namtruong/xetuhanh/build/agv_base_interface': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_base_interface/build --no-deps symlink_data --force
+[2.005s] running develop
+[2.217s] running egg_info
+[2.237s] writing agv_base_interface.egg-info/PKG-INFO
+[2.238s] writing dependency_links to agv_base_interface.egg-info/dependency_links.txt
+[2.238s] writing entry points to agv_base_interface.egg-info/entry_points.txt
+[2.238s] writing requirements to agv_base_interface.egg-info/requires.txt
+[2.239s] writing top-level names to agv_base_interface.egg-info/top_level.txt
+[2.277s] reading manifest file 'agv_base_interface.egg-info/SOURCES.txt'
+[2.278s] writing manifest file 'agv_base_interface.egg-info/SOURCES.txt'
+[2.300s] running build_ext
+[2.300s] Creating /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv-base-interface.egg-link (link to .)
+[2.301s] Installing encoder_sim_node script to /home/namtruong/xetuhanh/install/agv_base_interface/lib/agv_base_interface
+[2.301s] Installing wheel_odometry_node script to /home/namtruong/xetuhanh/install/agv_base_interface/lib/agv_base_interface
+[2.302s] 
+[2.302s] Installed /home/namtruong/xetuhanh/build/agv_base_interface
+[2.302s] running symlink_data
+[2.303s] symbolically linking /home/namtruong/xetuhanh/build/agv_base_interface/resource/agv_base_interface -> /home/namtruong/xetuhanh/install/agv_base_interface/share/ament_index/resource_index/packages
+[2.304s] symbolically linking /home/namtruong/xetuhanh/build/agv_base_interface/package.xml -> /home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface
+[2.364s] Invoked command in '/home/namtruong/xetuhanh/build/agv_base_interface' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_base_interface/build --no-deps symlink_data --force

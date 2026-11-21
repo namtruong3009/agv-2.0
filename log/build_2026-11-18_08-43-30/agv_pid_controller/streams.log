@@ -1,0 +1,57 @@
+[0.639s] Invoking command in '/home/namtruong/xetuhanh/build/agv_pid_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/namtruong/xetuhanh/src/agv_pid_controller -DCMAKE_INSTALL_PREFIX=/home/namtruong/xetuhanh/install/agv_pid_controller
+[0.654s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.897s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.904s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.005s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.013s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.023s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.099s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.102s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.408s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.437s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.469s] -- Found control_toolbox: 4.11.1 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[1.484s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[1.484s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[1.484s]   Lyrical Luth.
+[1.484s] 
+[1.484s]         Use tl/expected.hpp from libexpected-dev,
+[1.484s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[1.484s] Call Stack (most recent call first):
+[1.484s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.484s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[1.484s]   /opt/ros/jazzy/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.485s]   /opt/ros/jazzy/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+[1.485s]   CMakeLists.txt:14 (find_package)
+[1.485s] 
+[1.485s] [0m
+[1.723s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.725s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.904s] -- Configuring done (1.3s)
+[1.932s] -- Generating done (0.0s)
+[1.941s] -- Build files have been written to: /home/namtruong/xetuhanh/build/agv_pid_controller
+[1.957s] Invoked command in '/home/namtruong/xetuhanh/build/agv_pid_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/namtruong/xetuhanh/src/agv_pid_controller -DCMAKE_INSTALL_PREFIX=/home/namtruong/xetuhanh/install/agv_pid_controller
+[1.958s] Invoking command in '/home/namtruong/xetuhanh/build/agv_pid_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_pid_controller -- -j16 -l16
+[2.078s] [100%] Built target pid_velocity_node
+[2.092s] Invoked command in '/home/namtruong/xetuhanh/build/agv_pid_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_pid_controller -- -j16 -l16
+[2.094s] Invoking command in '/home/namtruong/xetuhanh/build/agv_pid_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_pid_controller
+[2.104s] -- Install configuration: ""
+[2.104s] -- Execute custom install script
+[2.104s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/lib/agv_pid_controller/pid_velocity_node
+[2.105s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/package_run_dependencies/agv_pid_controller
+[2.105s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/parent_prefix_path/agv_pid_controller
+[2.105s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.sh
+[2.105s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/ament_prefix_path.dsv
+[2.105s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.sh
+[2.106s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/environment/path.dsv
+[2.106s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.bash
+[2.106s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.sh
+[2.106s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.zsh
+[2.106s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/local_setup.dsv
+[2.106s] -- Symlinking: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.dsv
+[2.118s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/ament_index/resource_index/packages/agv_pid_controller
+[2.118s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig.cmake
+[2.118s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/cmake/agv_pid_controllerConfig-version.cmake
+[2.118s] -- Up-to-date symlink: /home/namtruong/xetuhanh/install/agv_pid_controller/share/agv_pid_controller/package.xml
+[2.121s] Invoked command in '/home/namtruong/xetuhanh/build/agv_pid_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_parameter_manager:/home/namtruong/xetuhanh/install/agv_base_interface:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_pid_controller

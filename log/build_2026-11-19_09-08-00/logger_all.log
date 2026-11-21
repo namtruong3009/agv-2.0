@@ -1,0 +1,339 @@
+[0.329s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-up-to', 'robot_description', '--symlink-install']
+[0.329s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['robot_description'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ddd99fa81d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ddd99f7ff20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ddd99f7ff20>>, mixin_verb=('build',))
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.399s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/namtruong/xetuhanh'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_base_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_base_interface) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_base_interface) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_base_interface) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_base_interface) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_base_interface) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_base_interface) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_base_interface) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_base_interface) by extension 'ros'
+[0.442s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agv_base_interface' with type 'ros.ament_python' and name 'agv_base_interface'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_ekf) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_ekf) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_ekf) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_ekf) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_ekf) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_ekf) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_ekf) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_ekf) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_ekf) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agv_ekf' with type 'ros.ament_cmake' and name 'agv_ekf'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_parameter_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_parameter_manager) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_parameter_manager) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_parameter_manager) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_parameter_manager) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_parameter_manager) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_parameter_manager) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_parameter_manager) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_parameter_manager) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agv_parameter_manager' with type 'ros.ament_python' and name 'agv_parameter_manager'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_pid_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_pid_controller) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_pid_controller) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_pid_controller) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_pid_controller) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_pid_controller) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_pid_controller) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_pid_controller) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_pid_controller) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agv_pid_controller' with type 'ros.ament_cmake' and name 'agv_pid_controller'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_sensor_fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_sensor_fusion) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_sensor_fusion) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_sensor_fusion) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_sensor_fusion) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_sensor_fusion) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_sensor_fusion) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_sensor_fusion) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_sensor_fusion) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agv_sensor_fusion' with type 'ros.ament_python' and name 'agv_sensor_fusion'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.478s] INFO:colcon.colcon_core.package_selection:Skipping package 'agv_pid_controller' in 'src/agv_pid_controller'
+[0.478s] INFO:colcon.colcon_core.package_selection:Skipping package 'agv_parameter_manager' in 'src/agv_parameter_manager'
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.485s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/namtruong/turtlebot3_ws/install
+[0.486s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 396 installed packages in /opt/ros/jazzy
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_base_interface' build argument 'cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_base_interface' build argument 'cmake_target' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_base_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_base_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_base_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_base_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_base_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_base_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_base_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.561s] DEBUG:colcon.colcon_core.verb:Building package 'agv_base_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/namtruong/xetuhanh/build/agv_base_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/namtruong/xetuhanh/install/agv_base_interface', 'merge_install': False, 'path': '/home/namtruong/xetuhanh/src/agv_base_interface', 'symlink_install': True, 'test_result_base': None}
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_ekf' build argument 'cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_ekf' build argument 'cmake_target' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_ekf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_ekf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_ekf' build argument 'cmake_clean_first' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_ekf' build argument 'cmake_force_configure' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_ekf' build argument 'ament_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_ekf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'agv_ekf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.561s] DEBUG:colcon.colcon_core.verb:Building package 'agv_ekf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/namtruong/xetuhanh/build/agv_ekf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/namtruong/xetuhanh/install/agv_ekf', 'merge_install': False, 'path': '/home/namtruong/xetuhanh/src/agv_ekf', 'symlink_install': True, 'test_result_base': None}
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'agv_sensor_fusion' build argument 'cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'agv_sensor_fusion' build argument 'cmake_target' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'agv_sensor_fusion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'agv_sensor_fusion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'agv_sensor_fusion' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'agv_sensor_fusion' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'agv_sensor_fusion' build argument 'ament_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'agv_sensor_fusion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'agv_sensor_fusion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.562s] DEBUG:colcon.colcon_core.verb:Building package 'agv_sensor_fusion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/namtruong/xetuhanh/build/agv_sensor_fusion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/namtruong/xetuhanh/install/agv_sensor_fusion', 'merge_install': False, 'path': '/home/namtruong/xetuhanh/src/agv_sensor_fusion', 'symlink_install': True, 'test_result_base': None}
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.562s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/namtruong/xetuhanh/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/namtruong/xetuhanh/install/robot_description', 'merge_install': False, 'path': '/home/namtruong/xetuhanh/src/robot_description', 'symlink_install': True, 'test_result_base': None}
+[0.562s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.563s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.564s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/namtruong/xetuhanh/src/agv_base_interface' with build type 'ament_python'
+[0.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_base_interface', 'ament_prefix_path')
+[0.571s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface/hook/ament_prefix_path.ps1'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface/hook/ament_prefix_path.dsv'
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface/hook/ament_prefix_path.sh'
+[0.575s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.581s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/namtruong/xetuhanh/src/agv_ekf' with build type 'ament_cmake'
+[0.581s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/namtruong/xetuhanh/src/agv_ekf'
+[0.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.585s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/namtruong/xetuhanh/src/agv_sensor_fusion' with build type 'ament_python'
+[0.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_sensor_fusion', 'ament_prefix_path')
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion/hook/ament_prefix_path.ps1'
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion/hook/ament_prefix_path.dsv'
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion/hook/ament_prefix_path.sh'
+[0.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.778s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/namtruong/xetuhanh/src/agv_base_interface'
+[0.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/namtruong/xetuhanh/build/agv_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_ekf -- -j16 -l16
+[0.990s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/namtruong/xetuhanh/src/agv_sensor_fusion'
+[0.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/namtruong/xetuhanh/build/agv_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/namtruong/xetuhanh/build/agv_ekf -- -j16 -l16
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/namtruong/xetuhanh/build/agv_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_ekf
+[1.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv_ekf)
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/namtruong/xetuhanh/build/agv_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/namtruong/xetuhanh/build/agv_ekf
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf' for CMake module files
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf' for CMake config files
+[1.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_ekf', 'cmake_prefix_path')
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/hook/cmake_prefix_path.ps1'
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/hook/cmake_prefix_path.dsv'
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/hook/cmake_prefix_path.sh'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf/bin'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf/lib/pkgconfig/agv_ekf.pc'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf/lib/python3.12/site-packages'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf/bin'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.dsv'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.sh'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.bash'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.zsh'
+[1.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/namtruong/xetuhanh/install/agv_ekf/share/colcon-core/packages/agv_ekf)
+[1.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv_ekf)
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf' for CMake module files
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf' for CMake config files
+[1.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_ekf', 'cmake_prefix_path')
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/hook/cmake_prefix_path.ps1'
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/hook/cmake_prefix_path.dsv'
+[1.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/hook/cmake_prefix_path.sh'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf/bin'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf/lib/pkgconfig/agv_ekf.pc'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf/lib/python3.12/site-packages'
+[1.070s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_ekf/bin'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.ps1'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.dsv'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.sh'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.bash'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_ekf/share/agv_ekf/package.zsh'
+[1.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/namtruong/xetuhanh/install/agv_ekf/share/colcon-core/packages/agv_ekf)
+[1.817s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, bdist_rpm, saveopts, easy_install, extract_messages, upload_docs, build_ext, build_clib, dist_info, compile_catalog, rotate, setopt, update_catalog, register, test, editable_wheel, egg_info, install_scripts, build_py, symlink_data, bdist_wheel, bdist_dumb, build_scripts, install_data, build, bdist, alias, develop, bdist_egg, sdist, install_egg_info, init_catalog, install, upload, clean, check, install_lib
+[1.828s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, bdist_rpm, saveopts, easy_install, extract_messages, upload_docs, build_ext, build_clib, dist_info, compile_catalog, rotate, setopt, update_catalog, register, test, editable_wheel, egg_info, install_scripts, build_py, symlink_data, bdist_wheel, bdist_dumb, build_scripts, install_data, build, bdist, alias, develop, bdist_egg, sdist, install_egg_info, init_catalog, install, upload, clean, check, install_lib
+[2.112s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --prefix, --local-snapshots-ok, --install-layout, --find-links, --help, --uninstall, --record, --egg-path, --index-url, --install-dir, --site-dirs, --build-directory, --user, --no-deps, --version, --multi-version, --optimize, --allow-hosts, --exclude-scripts, --force-installation-into-system-dir, --zip-ok, --no-find-links, --always-copy, --script-dir, --always-unzip, --quiet, --verbose, --no-user-cfg, --editable, --upgrade, --dry-run
+[2.123s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --prefix, --local-snapshots-ok, --install-layout, --find-links, --help, --uninstall, --record, --egg-path, --index-url, --install-dir, --site-dirs, --build-directory, --user, --no-deps, --version, --multi-version, --optimize, --allow-hosts, --exclude-scripts, --force-installation-into-system-dir, --zip-ok, --no-find-links, --always-copy, --script-dir, --always-unzip, --quiet, --verbose, --no-user-cfg, --editable, --upgrade, --dry-run
+[2.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/namtruong/xetuhanh/build/agv_sensor_fusion': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_sensor_fusion/build --no-deps symlink_data
+[2.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/namtruong/xetuhanh/build/agv_base_interface': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_base_interface/build --no-deps symlink_data
+[2.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_base_interface', 'pythonpath_develop')
+[2.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/build/agv_base_interface/share/agv_base_interface/hook/pythonpath_develop.ps1'
+[2.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/namtruong/xetuhanh/build/agv_base_interface' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_base_interface/build --no-deps symlink_data
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/namtruong/xetuhanh/build/agv_base_interface/share/agv_base_interface/hook/pythonpath_develop.dsv'
+[2.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/build/agv_base_interface/share/agv_base_interface/hook/pythonpath_develop.sh'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_base_interface' for CMake module files
+[2.746s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_base_interface' for CMake config files
+[2.746s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_base_interface/lib'
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_base_interface/bin'
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_base_interface/lib/pkgconfig/agv_base_interface.pc'
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages'
+[2.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_base_interface', 'pythonpath')
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface/hook/pythonpath.ps1'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface/hook/pythonpath.dsv'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface/hook/pythonpath.sh'
+[2.748s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_base_interface/bin'
+[2.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv_base_interface)
+[2.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface/package.ps1'
+[2.749s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface/package.dsv'
+[2.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface/package.sh'
+[2.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface/package.bash'
+[2.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_base_interface/share/agv_base_interface/package.zsh'
+[2.750s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/namtruong/xetuhanh/install/agv_base_interface/share/colcon-core/packages/agv_base_interface)
+[2.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_sensor_fusion', 'pythonpath_develop')
+[2.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/build/agv_sensor_fusion/share/agv_sensor_fusion/hook/pythonpath_develop.ps1'
+[2.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/namtruong/xetuhanh/build/agv_sensor_fusion' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/namtruong/xetuhanh/build/agv_sensor_fusion/build --no-deps symlink_data
+[2.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/namtruong/xetuhanh/build/agv_sensor_fusion/share/agv_sensor_fusion/hook/pythonpath_develop.dsv'
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/build/agv_sensor_fusion/share/agv_sensor_fusion/hook/pythonpath_develop.sh'
+[2.757s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_sensor_fusion' for CMake module files
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_sensor_fusion' for CMake config files
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_sensor_fusion/bin'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/pkgconfig/agv_sensor_fusion.pc'
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages'
+[2.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_sensor_fusion', 'pythonpath')
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion/hook/pythonpath.ps1'
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion/hook/pythonpath.dsv'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion/hook/pythonpath.sh'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/agv_sensor_fusion/bin'
+[2.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv_sensor_fusion)
+[2.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion/package.ps1'
+[2.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion/package.dsv'
+[2.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion/package.sh'
+[2.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion/package.bash'
+[2.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/agv_sensor_fusion/package.zsh'
+[2.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/namtruong/xetuhanh/install/agv_sensor_fusion/share/colcon-core/packages/agv_sensor_fusion)
+[2.762s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/namtruong/xetuhanh/src/robot_description' with build type 'ament_cmake'
+[2.763s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/namtruong/xetuhanh/src/robot_description'
+[2.763s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.763s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/namtruong/xetuhanh/build/robot_description': AMENT_PREFIX_PATH=/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_ekf:/home/namtruong/xetuhanh/install/agv_base_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/namtruong/xetuhanh/install/agv_ekf:/home/namtruong/turtlebot3_ws/install/turtlebot3:/home/namtruong/turtlebot3_ws/install/turtlebot3_simulations:/home/namtruong/turtlebot3_ws/install/turtlebot3_bringup:/home/namtruong/turtlebot3_ws/install/turtlebot3_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_navigation2:/home/namtruong/turtlebot3_ws/install/turtlebot3_fake_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs:/home/namtruong/turtlebot3_ws/install/turtlebot3_gazebo:/home/namtruong/turtlebot3_ws/install/turtlebot3_description:/home/namtruong/turtlebot3_ws/install/turtlebot3_cartographer:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_examples:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy PYTHONPATH=/home/namtruong/xetuhanh/build/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages:/home/namtruong/xetuhanh/build/agv_base_interface:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/namtruong/xetuhanh/build/robot_description -- -j16 -l16
+[2.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/namtruong/xetuhanh/build/robot_description' returned '0': AMENT_PREFIX_PATH=/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_ekf:/home/namtruong/xetuhanh/install/agv_base_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/namtruong/xetuhanh/install/agv_ekf:/home/namtruong/turtlebot3_ws/install/turtlebot3:/home/namtruong/turtlebot3_ws/install/turtlebot3_simulations:/home/namtruong/turtlebot3_ws/install/turtlebot3_bringup:/home/namtruong/turtlebot3_ws/install/turtlebot3_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_navigation2:/home/namtruong/turtlebot3_ws/install/turtlebot3_fake_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs:/home/namtruong/turtlebot3_ws/install/turtlebot3_gazebo:/home/namtruong/turtlebot3_ws/install/turtlebot3_description:/home/namtruong/turtlebot3_ws/install/turtlebot3_cartographer:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_examples:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy PYTHONPATH=/home/namtruong/xetuhanh/build/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages:/home/namtruong/xetuhanh/build/agv_base_interface:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/namtruong/xetuhanh/build/robot_description -- -j16 -l16
+[2.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/namtruong/xetuhanh/build/robot_description': AMENT_PREFIX_PATH=/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_ekf:/home/namtruong/xetuhanh/install/agv_base_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/namtruong/xetuhanh/install/agv_ekf:/home/namtruong/turtlebot3_ws/install/turtlebot3:/home/namtruong/turtlebot3_ws/install/turtlebot3_simulations:/home/namtruong/turtlebot3_ws/install/turtlebot3_bringup:/home/namtruong/turtlebot3_ws/install/turtlebot3_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_navigation2:/home/namtruong/turtlebot3_ws/install/turtlebot3_fake_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs:/home/namtruong/turtlebot3_ws/install/turtlebot3_gazebo:/home/namtruong/turtlebot3_ws/install/turtlebot3_description:/home/namtruong/turtlebot3_ws/install/turtlebot3_cartographer:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_examples:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy PYTHONPATH=/home/namtruong/xetuhanh/build/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages:/home/namtruong/xetuhanh/build/agv_base_interface:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/namtruong/xetuhanh/build/robot_description
+[3.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description' for CMake module files
+[3.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/namtruong/xetuhanh/build/robot_description' returned '0': AMENT_PREFIX_PATH=/home/namtruong/xetuhanh/install/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_ekf:/home/namtruong/xetuhanh/install/agv_base_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/namtruong/xetuhanh/install/agv_ekf:/home/namtruong/turtlebot3_ws/install/turtlebot3:/home/namtruong/turtlebot3_ws/install/turtlebot3_simulations:/home/namtruong/turtlebot3_ws/install/turtlebot3_bringup:/home/namtruong/turtlebot3_ws/install/turtlebot3_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_navigation2:/home/namtruong/turtlebot3_ws/install/turtlebot3_fake_node:/home/namtruong/turtlebot3_ws/install/turtlebot3_msgs:/home/namtruong/turtlebot3_ws/install/turtlebot3_gazebo:/home/namtruong/turtlebot3_ws/install/turtlebot3_description:/home/namtruong/turtlebot3_ws/install/turtlebot3_cartographer:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_examples:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/namtruong/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/namtruong/turtlebot3_ws/install/turtlebot3_teleop:/home/namtruong/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy PYTHONPATH=/home/namtruong/xetuhanh/build/agv_sensor_fusion:/home/namtruong/xetuhanh/install/agv_sensor_fusion/lib/python3.12/site-packages:/home/namtruong/xetuhanh/build/agv_base_interface:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/namtruong/xetuhanh/build/robot_description
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description' for CMake config files
+[3.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[3.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[3.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[3.035s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description/lib'
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description/bin'
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description/lib/pkgconfig/robot_description.pc'
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description/lib/python3.12/site-packages'
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description/bin'
+[3.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.ps1'
+[3.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.dsv'
+[3.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.sh'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.bash'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.zsh'
+[3.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/namtruong/xetuhanh/install/robot_description/share/colcon-core/packages/robot_description)
+[3.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description' for CMake module files
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description' for CMake config files
+[3.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[3.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[3.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[3.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description/lib'
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description/bin'
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description/lib/pkgconfig/robot_description.pc'
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description/lib/python3.12/site-packages'
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/namtruong/xetuhanh/install/robot_description/bin'
+[3.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.ps1'
+[3.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.dsv'
+[3.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.sh'
+[3.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.bash'
+[3.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/namtruong/xetuhanh/install/robot_description/share/robot_description/package.zsh'
+[3.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/namtruong/xetuhanh/install/robot_description/share/colcon-core/packages/robot_description)
+[3.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.045s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.078s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.078s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.078s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.078s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.114s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[3.114s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/namtruong/xetuhanh/install/local_setup.ps1'
+[3.116s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/namtruong/xetuhanh/install/_local_setup_util_ps1.py'
+[3.117s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/namtruong/xetuhanh/install/setup.ps1'
+[3.118s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/namtruong/xetuhanh/install/local_setup.sh'
+[3.119s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/namtruong/xetuhanh/install/_local_setup_util_sh.py'
+[3.120s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/namtruong/xetuhanh/install/setup.sh'
+[3.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/namtruong/xetuhanh/install/local_setup.bash'
+[3.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/namtruong/xetuhanh/install/setup.bash'
+[3.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/namtruong/xetuhanh/install/local_setup.zsh'
+[3.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/namtruong/xetuhanh/install/setup.zsh'

@@ -1,0 +1,2 @@
+[console_scripts]
+imu_sensor_sim_node = agv_sensor_fusion.imu_sensor_sim_node:main

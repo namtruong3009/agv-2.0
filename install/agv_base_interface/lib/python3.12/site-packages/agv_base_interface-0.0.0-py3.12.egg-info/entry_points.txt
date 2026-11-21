@@ -1,0 +1,3 @@
+[console_scripts]
+encoder_sim_node = agv_base_interface.encoder_sim_node:main
+wheel_odometry_node = agv_base_interface.wheel_odometry_node:main

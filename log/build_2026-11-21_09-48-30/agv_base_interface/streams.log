@@ -1,0 +1,22 @@
+[1.214s] Invoking command in '/home/namtruong/xetuhanh/src/agv_base_interface': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_base_interface build --build-base /home/namtruong/xetuhanh/build/agv_base_interface/build install --record /home/namtruong/xetuhanh/build/agv_base_interface/install.log --install-scripts $base/lib/agv_base_interface --single-version-externally-managed install_data
+[1.517s] running egg_info
+[1.535s] writing ../../build/agv_base_interface/agv_base_interface.egg-info/PKG-INFO
+[1.535s] writing dependency_links to ../../build/agv_base_interface/agv_base_interface.egg-info/dependency_links.txt
+[1.536s] writing entry points to ../../build/agv_base_interface/agv_base_interface.egg-info/entry_points.txt
+[1.536s] writing requirements to ../../build/agv_base_interface/agv_base_interface.egg-info/requires.txt
+[1.536s] writing top-level names to ../../build/agv_base_interface/agv_base_interface.egg-info/top_level.txt
+[1.573s] reading manifest file '../../build/agv_base_interface/agv_base_interface.egg-info/SOURCES.txt'
+[1.574s] writing manifest file '../../build/agv_base_interface/agv_base_interface.egg-info/SOURCES.txt'
+[1.574s] running build
+[1.574s] running build_py
+[1.574s] running install
+[1.579s] running install_lib
+[1.598s] running install_data
+[1.598s] running install_egg_info
+[1.618s] removing '/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv_base_interface-0.0.0-py3.12.egg-info' (and everything under it)
+[1.619s] Copying ../../build/agv_base_interface/agv_base_interface.egg-info to /home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages/agv_base_interface-0.0.0-py3.12.egg-info
+[1.620s] running install_scripts
+[1.772s] Installing encoder_sim_node script to /home/namtruong/xetuhanh/install/agv_base_interface/lib/agv_base_interface
+[1.773s] Installing wheel_odometry_node script to /home/namtruong/xetuhanh/install/agv_base_interface/lib/agv_base_interface
+[1.773s] writing list of installed files to '/home/namtruong/xetuhanh/build/agv_base_interface/install.log'
+[1.821s] Invoked command in '/home/namtruong/xetuhanh/src/agv_base_interface' returned '0': PYTHONPATH=/home/namtruong/xetuhanh/build/agv_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/namtruong/xetuhanh/install/agv_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/agv_base_interface build --build-base /home/namtruong/xetuhanh/build/agv_base_interface/build install --record /home/namtruong/xetuhanh/build/agv_base_interface/install.log --install-scripts $base/lib/agv_base_interface --single-version-externally-managed install_data

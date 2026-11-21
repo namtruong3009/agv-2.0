@@ -1,1 +1,1 @@
-robot_state_publisher;xacro;ros_gz_sim;agv_ekf;agv_base_interface
+robot_state_publisher;xacro;ros_gz_sim;agv_ekf;agv_base_interface;agv_sensor_fusion;imu_filter_madgwick

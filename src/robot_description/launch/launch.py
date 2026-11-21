@@ -143,6 +143,39 @@ def generate_launch_description():
         }]
     )
 
+    
+    # 10. Simulate MPU6050 + QMC5883L
+    imu_sensor_sim_node = Node(
+        package='agv_sensor_fusion',
+        executable='imu_sensor_sim_node',
+        name='imu_sensor_sim_node',
+        output='screen',
+        parameters=[{
+            'use_sim_time': True,
+            'gyro_xy_std': 0.01,
+            'imu_wz_std': 0.03,
+            'accel_std': 0.08,
+            'gyro_z_bias': 0.002,
+            'mag_std': 0.0000003
+        }]
+    )
+
+    # 11. Madgwick 9-axis sensor fusion
+    madgwick_node = Node(
+        package='imu_filter_madgwick',
+        executable='imu_filter_madgwick_node',
+        name='imu_filter_madgwick',
+        output='screen',
+        parameters=[{
+            'use_sim_time': True,
+            'use_mag': True,
+            'world_frame': 'enu',
+            'publish_tf': False,
+            'remove_gravity_vector': False,
+            'gain': 0.1,
+            'orientation_stddev': 0.15
+        }]
+    )
 
     ld = LaunchDescription()
     ld.add_action(set_env_vars_resources)
@@ -156,5 +189,7 @@ def generate_launch_description():
     ld.add_action(nav2_cmd)
     ld.add_action(encoder_sim_node)
     ld.add_action(wheel_odometry_node)
+    ld.add_action(imu_sensor_sim_node)
+    ld.add_action(madgwick_node)
 
     return ld
